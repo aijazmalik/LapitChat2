@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/main_page_toolbar"
+        layout="@layout/app_bar_layout" />
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="297dp"
+        android:text="This is Main Page"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
